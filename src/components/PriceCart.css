@@ -1,0 +1,92 @@
+.card-group {
+  background: #fff;
+  color: #000;
+  width: 300px;
+  border-radius: 20px;
+  padding: 10px 0;
+  transition: all 0.2s;
+}
+.card-group:hover {
+  transform: translateY(-10px);
+  box-shadow: 10px 10px 8px #0062e6, -10px -10px 8px #33aeff;
+}
+.card-header {
+  color: #585757;
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 1px;
+  font-size: 0.9rem;
+}
+.card-price {
+  text-align: center;
+  font-size: 1.2rem;
+}
+.period {
+  font-size: 0.8rem;
+}
+hr {
+  margin: 1.5rem 0;
+}
+.card-group ul {
+  margin-left: 10%;
+  font-size: 0.9rem;
+}
+.card-group ul li {
+  margin: 1rem 0;
+  list-style: none;
+}
+.domain-type {
+  margin-left: 2px;
+  font-size: 1rem;
+  font-weight: 900;
+}
+.card-group button {
+  background: #177cc0;
+  font-size: 0.85rem;
+  font-weight: 900;
+  text-transform: uppercase;
+  border: none;
+  outline: none;
+  border-radius: 20px;
+  color: #fff;
+  height: 50px;
+  width: 220px;
+  margin: 5% 13%;
+}
+.card-group:hover button,
+.card-group button:hover {
+  background: #0259cc;
+}
+.muted {
+  color: #858383;
+}
+@media screen and (max-width: 767px) {
+  .card-group {
+    width: 250px;
+    border-radius: 15px;
+    padding: 5px 0;
+  }
+  .card-header {
+    font-size: 0.85rem;
+  }
+  .card-price {
+    font-size: 1rem;
+  }
+  .period {
+    font-size: 0.75rem;
+  }
+  .domain-type {
+    font-size: 0.9rem;
+  }
+  .card-group button {
+    font-size: 0.8rem;
+    font-weight: 900;
+    border-radius: 15px;
+    height: 40px;
+    width: 185px;
+  }
+  .card-group ul {
+    margin-left: 5%;
+    font-size: 0.8rem;
+  }
+}
